@@ -4,9 +4,9 @@ namespace Library
     class Book
     {
 
-        private string title; // variable
-        private string author; // variable
-        private string isbn; // variable
+        private string title; //  private variable
+        private string author; // private variable
+        private string isbn; // private variable
 
         //Title property to allow access
         // to the title private variable
@@ -33,9 +33,9 @@ namespace Library
 
         public Book(string bookTitle, string bookAuthor, string bookISBN)
         {
-            Title = bookTitle;
-            Author = bookAuthor;
-            ISBN = bookISBN;
+            this.Title = bookTitle;
+            this.Author = bookAuthor;
+            this.ISBN = bookISBN;
         }
 
         

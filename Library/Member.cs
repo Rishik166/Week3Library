@@ -1,5 +1,7 @@
 ﻿
 
+using System.Security.Cryptography.X509Certificates;
+
 namespace Library
 {
     class Member
@@ -40,10 +42,20 @@ namespace Library
             this.Address = address;
             this.Phone = phone;
 
+        }
+
+        // Method to display information about a book
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"MemberId: {MemberId}");
+            Console.WriteLine($"Member Name: {Name}");
+            Console.WriteLine($"Member address: {Address}");
+            Console.WriteLine($"Member phone: {Phone}");
+
+            Console.WriteLine();
 
 
-           
-            }
+        }
 
         }
         

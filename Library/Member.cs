@@ -4,7 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Library
 {
-    class Member
+    public class Member
     {
         private int memberId;
         private string name;
